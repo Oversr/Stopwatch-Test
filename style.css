@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./images/project-4.jpeg) no-repeat center center/cover;
+}
+
+.container {
+    width: 60%;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 3px;
+}
+
+#timer {
+    width: 100%;
+    font-size: 4rem;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 1.5rem;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    margin-top: .5rem;
+    border: none;
+    cursor: pointer;
+}
+
+button i {
+    font-size: 2rem;
+    padding: .5rem;
+    color: #fff;
+    width: 50px;
+}
+
+#play {
+    background-color: green;
+}
+
+#pause {
+    background-color: orange;
+}
+
+#reset {
+    background-color: red;
+}
+
+@media (max-width: 768px) {
+    
+    .container {
+        width: 70%;
+    }
+}
